@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body>
+        <div>
+            <button class="myButton green" value="0" type="button">0</button>
+            <button class="myButton green" value="37" type="button">00</button>
+            <button class="myButton" value="1" type="button">1</button>
+            <button class="myButton" value="2" type="button">2</button>
+            <button class="myButton" value="3" type="button">3</button>
+            <button class="myButton" value="4" type="button">4</button>
+            <button class="myButton" value="5" type="button">5</button>
+            <button class="myButton" value="6" type="button">6</button>
+            <button class="myButton" value="7" type="button">7</button>
+            <button class="myButton" value="8" type="button">8</button>
+            <button class="myButton" value="9" type="button">9</button>
+            <button class="myButton" value="10" type="button">10</button>
+            <button class="myButton" value="11" type="button">11</button>
+            <button class="myButton" value="12" type="button">12</button>
+            <button class="myButton" value="13" type="button">13</button>
+            <button class="myButton" value="14" type="button">14</button>
+            <button class="myButton" value="15" type="button">15</button>
+            <button class="myButton" value="16" type="button">16</button>
+            <button class="myButton" value="17" type="button">17</button>
+            <button class="myButton" value="18" type="button">18</button>
+            <button class="myButton" value="19" type="button">19</button>
+            <button class="myButton" value="20" type="button">20</button>
+            <button class="myButton" value="21" type="button">21</button>
+            <button class="myButton" value="22" type="button">22</button>
+            <button class="myButton" value="23" type="button">23</button>
+            <button class="myButton" value="24" type="button">24</button>
+            <button class="myButton" value="25" type="button">25</button>
+            <button class="myButton" value="26" type="button">26</button>
+            <button class="myButton" value="27" type="button">27</button>
+            <button class="myButton" value="28" type="button">28</button>
+            <button class="myButton" value="29" type="button">29</button>
+            <button class="myButton" value="30" type="button">30</button>
+            <button class="myButton" value="31" type="button">31</button>
+            <button class="myButton" value="32" type="button">32</button>
+            <button class="myButton" value="33" type="button">33</button>
+            <button class="myButton" value="34" type="button">34</button>
+            <button class="myButton" value="35" type="button">35</button>
+            <button class="myButton" value="36" type="button">36</button>
+        </div>
+
+        <div>
+            <span id="resultsDisplay"></span>
+        </div>
+
+        <table id="valuesTable">
+            <thead>
+              <tr>
+                <th>Group Name</th>
+                <th>Count</th>
+                <th>Last Occurrence</th>
+                <th>Numbers</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="NewMoon">
+                <td>NewMoon</td>
+                <td class="count"></td>
+                <td class="last-occurrence"></td>
+                <td>1, 13, 24, 36</td>
+              </tr>
+              <tr id="WaxingCresent">
+                <td>Waxing Cresent</td>
+                <td class="count"></td>
+                <td class="last-occurrence"></td>
+                <td>3, 5, 15, 22, 34</td>
+              </tr>
+              <tr id="FirstQuarter">
+                <td>First Quarter</td>
+                <td class="count"></td>
+                <td class="last-occurrence"></td>
+                <td>7, 11, 17, 20, 32</td>
+              </tr>
+              <tr id="WaxingGibbous">
+                <td>Waxing Gibbous</td>
+                <td class="count"></td>
+                <td class="last-occurrence"></td>
+                <td>0, 9, 26, 28, 30</td>
+              </tr>
+              <tr id="FullMoon">
+                <td>Full Moon</td>
+                <td class="count"></td>
+                <td class="last-occurrence"></td>
+                <td>2, 14, 23, 35</td>
+              </tr>
+              <tr id="WaningGibbous">
+                <td>Waning Gibbous</td>
+                <td class="count"></td>
+                <td class="last-occurrence"></td>
+                <td>4, 6, 16, 21, 33</td>
+              </tr>
+              <tr id="ThirdQuarter">
+                <td>Third Quarter</td>
+                <td class="count"></td>
+                <td class="last-occurrence"></td>
+                <td>8, 12, 18, 19, 31</td>
+              </tr>
+              <tr id="WaningCresent">
+                <td>Waning Cresent</td>
+                <td class="count"></td>
+                <td class="last-occurrence"></td>
+                <td>10, 25, 27, 29, 37</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table>
+            <caption>6's The Line (5:1)</caption>
+            <thead>
+                <th>Group No.</th>
+                <th>N</th>
+                <th>u</th>
+                <th>m</th>
+                <th>b</th>
+                <th>e</th>
+                <th>rs</th>
+                <th>Count</th>
+                <th>Last Occurrence</th>
+            </thead>
+            <tbody>
+                <tr id="Group1">
+                    <td>1.</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td class="count"></td>
+                    <td class="last-occurrence"></td>
+                </tr>
+                <tr id="Group2">
+                    <td>2.</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td class="count"></td>
+                    <td class="last-occurrence"></td>
+                </tr>
+                <tr id="Group3">
+                    <td>3.</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td class="count"></td>
+                    <td class="last-occurrence"></td>
+                </tr>
+                <tr id="Group4">
+                    <td>4.</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td class="count"></td>
+                    <td class="last-occurrence"></td>
+                </tr>
+                <tr id="Group5">
+                    <td>5.</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td class="count"></td>
+                    <td class="last-occurrence"></td>
+                </tr>
+                <tr id="Group6">
+                    <td>6.</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td class="count"></td>
+                    <td class="last-occurrence"></td>
+                </tr>
+                <tr id="Group7">
+                    <td>7.</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td class="count"></td>
+                    <td class="last-occurrence"></td>
+                </tr>
+                <tr id="Group8">
+                    <td>8.</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td class="count"></td>
+                    <td class="last-occurrence"></td>
+                </tr>
+                <tr id="Group9">
+                    <td>9.</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td class="count"></td>
+                    <td class="last-occurrence"></td>
+                </tr>
+                <tr id="Group10">
+                    <td>10.</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>32</td>
+                    <td>33</td>
+                    <td class="count"></td>
+                    <td class="last-occurrence"></td>
+                </tr>
+                <tr id="Group11">
+                    <td>11.</td>
+                    <td>31</td>
+                    <td>32</td>
+                    <td>33</td>
+                    <td>34</td>
+                    <td>35</td>
+                    <td>36</td>
+                    <td class="count"></td>
+                    <td class="last-occurrence"></td>
+                </tr>
+            </tbody>
+          </table>
+    <script src="code.js"></script>
+</body>
+</html>
